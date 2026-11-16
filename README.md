@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Plateforme de gestion des talents (maquette)
+
+Front-end Next.js + shadcn/ui alimenté par des données fictives (`src/lib/talents/data.ts`).
+
+- `/connexion`, `/mot-de-passe-oublie` : authentification (simulée)
+- `/accueil` : tableau de bord, compétences, connexions, suggestions
+- `/profil`, `/profil/[id]` : profil du talent (bio modifiable, onglets, ajout d'éléments)
+- `/organigramme` : arbre des unités, zoom, recherche, panneau de détail (`?unite=dev`)
+- `/trombinoscope` : filtres par unité, compétence et lieu, recherche, pagination
+- Assistant : bouton flottant en bas à droite, recherche par nom, compétence, unité ou lieu
+
+L'ancienne interface de chat est déplacée sur `/chat`.

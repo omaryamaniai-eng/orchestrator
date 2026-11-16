@@ -41,6 +41,9 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  --color-link: var(--link);
+  --color-chip: var(--chip);
+  --color-canvas: var(--canvas);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -49,6 +52,9 @@
 
 :root {
   --radius: 0.625rem;
+  --link: oklch(0.205 0 0);
+  --chip: oklch(0.205 0 0);
+  --canvas: oklch(1 0 0);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -114,6 +120,34 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+/* Thème de la plateforme de gestion des talents (maquette « Talents ») */
+.talents {
+  --radius: 0.625rem;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --canvas: #f6f8fb;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #334155;
+  --muted: #f1f5f9;
+  --muted-foreground: #475569;
+  --accent: #eff6ff;
+  --accent-foreground: #1d4ed8;
+  --destructive: #b91c1c;
+  --border: #e2e8f0;
+  --input: #cbd5e1;
+  --ring: #2563eb;
+  --link: #1d4ed8;
+  --chip: #1e40af;
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  color: var(--foreground);
 }
 
 @layer base {
