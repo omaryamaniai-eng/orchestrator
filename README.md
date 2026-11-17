@@ -10,6 +10,8 @@ L'authentification est volontairement contournée : toutes les requêtes sont at
 
 ## Démarrage
 
+Prérequis : Node.js 20.9 ou plus récent. Toutes les commandes se lancent depuis le dossier du projet.
+
 ```bash
 npm install --legacy-peer-deps
 ```
